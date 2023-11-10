@@ -30,8 +30,8 @@ Usable Options:
    -V              ... Show the current version of the plugin
 
 Examples:
-    ./check_apache_solr.sh -h 127.0.0.1 -u nagios -P P@$$w0rd -T cores
-    ./check_apache_solr.sh -V
+    check_apache_solr.sh -h 127.0.0.1 -u nagios -P P@$$w0rd -T cores
+    check_apache_solr.sh -V
 
 ------------------------------------------------------------------------------------
 ```
