@@ -1,6 +1,13 @@
 # check_apache_solr
 Apache Solr Nagios plugin
 
+## Tested on
+- Apache Solr 9.4.x
+
+## Requirements
+- curl
+- jq
+
 ## Usage
 ```
 check_apache_solr.sh
