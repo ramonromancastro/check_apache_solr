@@ -31,7 +31,7 @@ SOLR_WARNING=
 SOLR_CRITICAL=
 SOLR_CHECK=
 
-VERSION='0.4'
+VERSION='0.5'
 
 NAGIOS_OK=0
 NAGIOS_WARNING=1
@@ -192,7 +192,7 @@ function print_help(){
         echo ""
         echo "For contact info, please read the plugin script file."
         echo ""
-        echo "Usage: $0 -H <hostname> [-h] [-V]"
+        echo "Usage: check_apache_solr.sh -H <hostname> [-h] [-V]"
         echo "------------------------------------------------------------------------------------"
         echo "Usable Options:"
         echo ""
