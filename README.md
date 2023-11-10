@@ -10,7 +10,7 @@ Please do not e-mail them for support on this plugin.
 
 For contact info, please read the plugin script file.
 
-Usage: ./check_apachesolr.sh -H <hostname> [-h] [-V]
+Usage: ./check_apache_solr.sh -H <hostname> [-h] [-V]
 ------------------------------------------------------------------------------------
 Usable Options:
 
