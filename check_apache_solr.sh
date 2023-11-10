@@ -31,7 +31,7 @@ SOLR_WARNING=
 SOLR_CRITICAL=
 SOLR_CHECK=
 
-VERSION='0.3'
+VERSION='0.4'
 
 NAGIOS_OK=0
 NAGIOS_WARNING=1
@@ -212,8 +212,8 @@ function print_help(){
         echo "   -V              ... Show the current version of the plugin"
         echo ''
         echo 'Examples:'
-        echo "    $0 -h 127.0.0.1 -u nagios -P P@\$\$w0rd"
-        echo "    $0 -V"
+        echo "    check_apache_solr.sh -h 127.0.0.1 -u nagios -P P@\$\$w0rd -T cores"
+        echo "    check_apache_solr.sh -V"
         echo ""
         echo "------------------------------------------------------------------------------------"
         exit $NAGIOS_OK
